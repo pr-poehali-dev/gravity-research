@@ -3,6 +3,7 @@ import { Hero } from "@/components/Hero";
 import { WhatIsArt } from "@/components/WhatIsArt";
 import { FeaturedArtists } from "@/components/FeaturedArtists";
 import { ArtTypes } from "@/components/ArtTypes";
+import { WallPanelsGallery } from "@/components/WallPanelsGallery";
 import { ArtSpaces } from "@/components/ArtSpaces";
 import { ArtworkGrid } from "@/components/ArtworkGrid";
 import { AboutSection } from "@/components/AboutSection";
@@ -17,6 +18,7 @@ const Index = () => {
       <WhatIsArt />
       <FeaturedArtists />
       <ArtTypes />
+      <WallPanelsGallery />
       <ArtSpaces />
       <ArtworkGrid />
       <AboutSection />
