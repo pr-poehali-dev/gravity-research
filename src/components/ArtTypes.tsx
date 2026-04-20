@@ -40,7 +40,7 @@ const productTypes: ProductType[] = [
     name: "Мебель из массива",
     description:
       "Столы, комоды, шкафы и полки из цельных массивных заготовок. Монолитная конструкция без МДФ и фанеры — только натуральное дерево.",
-    image: "/printmaking-woodblock-print-art.jpg",
+    image: "https://cdn.poehali.dev/projects/39934131-ac26-4ee8-881e-5f506b2366dc/bucket/f8015512-a3bd-49d6-ae6e-a19a59ee406d.png",
     examples: "Орех, Дуб, Палисандр, Тик",
   },
   {
