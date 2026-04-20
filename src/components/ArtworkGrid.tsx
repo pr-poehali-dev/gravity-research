@@ -7,39 +7,39 @@ interface Artwork {
 
 const artworks: Artwork[] = [
   {
-    title: "Хроматический резонанс",
-    artist: "Елена Васильева",
-    year: "2024",
+    title: "Панно «Амазония»",
+    artist: "Порода: Зебрано",
+    year: "Стеновая панель",
     image: "/abstract-colorful-painting-modern-art.jpg",
   },
   {
-    title: "Городские фрагменты",
-    artist: "Марк Ченов",
-    year: "2024",
+    title: "Инсталляция «Саванна»",
+    artist: "Порода: Венге",
+    year: "Потолочная панель",
     image: "/contemporary-sculpture-installation.jpg",
   },
   {
-    title: "Слои памяти",
-    artist: "София Андерсон",
-    year: "2023",
+    title: "Столешница «Таига»",
+    artist: "Порода: Кедр сибирский",
+    year: "Мебель из массива",
     image: "/mixed-media-collage-art.jpg",
   },
   {
-    title: "Серия «Идентичность» №7",
-    artist: "Яков Окунев",
-    year: "2024",
+    title: "Панно «Экватор»",
+    artist: "Порода: Тик бирманский",
+    year: "Стеновая панель",
     image: "/fine-art-portrait-photography.jpg",
   },
   {
-    title: "Эфемерные пространства",
-    artist: "Елена Васильева",
-    year: "2023",
+    title: "Пол «Терра»",
+    artist: "Порода: Мербау",
+    year: "Напольная панель",
     image: "/abstract-minimalist-painting.jpg",
   },
   {
-    title: "Цифровая природа",
-    artist: "Марк Ченов",
-    year: "2024",
+    title: "Комод «Аруша»",
+    artist: "Порода: Палисандр",
+    year: "Мебель из шпона",
     image: "/digital-art-nature-inspired.jpg",
   },
 ];
@@ -50,7 +50,7 @@ export function ArtworkGrid() {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mb-12">
           <h2 className="font-serif text-4xl lg:text-5xl font-light mb-4">Избранные работы</h2>
-          <p className="text-muted-foreground text-lg">Подборка произведений из текущей экспозиции</p>
+          <p className="text-muted-foreground text-lg">Проекты из нашего производственного портфолио</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
@@ -66,7 +66,7 @@ export function ArtworkGrid() {
               <div className="p-6">
                 <h3 className="font-serif text-xl font-light mb-1">{artwork.title}</h3>
                 <p className="text-sm text-muted-foreground">
-                  {artwork.artist}, {artwork.year}
+                  {artwork.artist} · {artwork.year}
                 </p>
               </div>
             </div>

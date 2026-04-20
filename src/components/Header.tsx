@@ -18,7 +18,7 @@ export function Header() {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <a href="#" className="font-serif text-2xl lg:text-3xl font-light tracking-wide">
-            Галерист
+            ArtWood
           </a>
 
           {/* Desktop Navigation */}
@@ -27,7 +27,7 @@ export function Header() {
               onClick={() => scrollToSection("artists")}
               className="text-sm tracking-wide hover:text-muted-foreground transition-colors"
             >
-              Художники
+              Коллекция
             </button>
             <button
               onClick={() => scrollToSection("works")}
@@ -68,7 +68,7 @@ export function Header() {
                 onClick={() => scrollToSection("artists")}
                 className="text-sm tracking-wide hover:text-muted-foreground transition-colors text-left"
               >
-                Художники
+                Коллекция
               </button>
               <button
                 onClick={() => scrollToSection("works")}

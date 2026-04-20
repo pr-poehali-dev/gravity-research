@@ -3,9 +3,9 @@ export function ArtSpaces() {
     <section className="py-16 lg:py-24 bg-background">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="mb-12 text-center">
-          <h2 className="font-serif text-4xl lg:text-5xl font-light mb-4">Где живёт искусство</h2>
+          <h2 className="font-serif text-4xl lg:text-5xl font-light mb-4">Где живёт наше дерево</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Исследуйте пространства, где процветает творчество и обретают дом шедевры
+            Изделия ArtWood органично вписываются в интерьеры любого масштаба и назначения
           </p>
         </div>
 
@@ -14,14 +14,14 @@ export function ArtSpaces() {
             <div className="aspect-[4/3] overflow-hidden">
               <img
                 src="/modern-contemporary-art-gallery-white-walls.jpg"
-                alt="Современная галерея"
+                alt="Частные резиденции"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-2xl font-light mb-2">Современные галереи</h3>
+              <h3 className="font-serif text-2xl font-light mb-2">Частные резиденции</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Минималистичные пространства, созданные для демонстрации современного искусства во всей его красоте
+                Панели и мебель из массива создают неповторимую атмосферу загородных домов и городских квартир
               </p>
             </div>
           </div>
@@ -30,14 +30,14 @@ export function ArtSpaces() {
             <div className="aspect-[4/3] overflow-hidden">
               <img
                 src="/classical-museum-grand-architecture-paintings.jpg"
-                alt="Классический музей"
+                alt="Офисные пространства"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-2xl font-light mb-2">Исторические музеи</h3>
+              <h3 className="font-serif text-2xl font-light mb-2">Офисные пространства</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Величественные институции, хранящие столетия художественного наследия и культурных сокровищ
+                Деревянные акценты в переговорных, лобби и кабинетах подчёркивают статус и вкус владельца
               </p>
             </div>
           </div>
@@ -45,15 +45,15 @@ export function ArtSpaces() {
           <div className="group overflow-hidden rounded-lg">
             <div className="aspect-[4/3] overflow-hidden">
               <img
-                src="/artist-studio-workspace-with-paintings-easel.jpg"
-                alt="Мастерская художника"
+                src="https://cdn.poehali.dev/projects/39934131-ac26-4ee8-881e-5f506b2366dc/files/d9238376-608c-46b2-a0d6-617b00da8812.jpg"
+                alt="Производственная мастерская"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-2xl font-light mb-2">Мастерские художников</h3>
+              <h3 className="font-serif text-2xl font-light mb-2">Наша мастерская</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Камерные творческие пространства, где вдохновение превращается в осязаемые произведения искусства
+                Современное производство полного цикла — от распиловки заготовок до финишной полировки готового изделия
               </p>
             </div>
           </div>
@@ -62,14 +62,14 @@ export function ArtSpaces() {
             <div className="aspect-[4/3] overflow-hidden">
               <img
                 src="/outdoor-sculpture-garden-with-modern-art.jpg"
-                alt="Парк скульптур"
+                alt="Рестораны и отели"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-2xl font-light mb-2">Парки скульптур</h3>
+              <h3 className="font-serif text-2xl font-light mb-2">Рестораны и отели</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Выставки под открытым небом, где искусство гармонирует с природой и ландшафтом
+                Тематические деревянные инсталляции и отделка создают запоминающийся образ заведения
               </p>
             </div>
           </div>
@@ -78,14 +78,14 @@ export function ArtSpaces() {
             <div className="aspect-[4/3] overflow-hidden">
               <img
                 src="/luxury-private-art-collection-room.jpg"
-                alt="Частная коллекция"
+                alt="Премиальные апартаменты"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-2xl font-light mb-2">Частные коллекции</h3>
+              <h3 className="font-serif text-2xl font-light mb-2">Премиальные апартаменты</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Персональные пространства, демонстрирующие страсть взыскательных коллекционеров к изящному искусству
+                Интегрированные деревянные системы — эталон роскоши в элитных жилых комплексах
               </p>
             </div>
           </div>
@@ -94,14 +94,14 @@ export function ArtSpaces() {
             <div className="aspect-[4/3] overflow-hidden">
               <img
                 src="/contemporary-exhibition-space-art-show.jpg"
-                alt="Выставочное пространство"
+                alt="Общественные объекты"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-2xl font-light mb-2">Выставочные пространства</h3>
+              <h3 className="font-serif text-2xl font-light mb-2">Общественные объекты</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Динамичные площадки для сменных экспозиций, объединяющие сообщества вокруг искусства
+                Декоративные панно и облицовка в культурных, медицинских и образовательных учреждениях
               </p>
             </div>
           </div>
